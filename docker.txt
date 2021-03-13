@@ -1,0 +1,3 @@
+docker pull cap1573/cap-protoc
+
+docker run --rm -v $(PWD):$(PWD) -w $(PWD) -e ICODE=CF388DF1EF1C5EB cap1573/cap-protoc -I ./ --go-out=./ --micro_out =././*.proto
