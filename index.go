@@ -83,9 +83,9 @@ func main() {
 	ss[0] = 11
 	r.POST("testBind", func(c *gin.Context) {
 		var p PostParams
-		//err :=c.ShouldBindJSON(&p)
+		er :=c.ShouldBindJSON(&p)
 		err := c.ShouldBindQuery(&p)
-		if err!=nil{
+		if err!=nil||er!=nil{
 			c.JSON(200,gin.H{
 				"message":"error",
 				"data":gin.H{},
