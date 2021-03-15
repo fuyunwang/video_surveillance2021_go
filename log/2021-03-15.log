@@ -70,3 +70,55 @@
 [Video_Surveillance15153]2021/03/15 - 12:11:13.811	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
 [Video_Surveillance15153]2021/03/15 - 12:11:13.840	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
 [Video_Surveillance15153]2021/03/15 - 12:11:13.843	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 12:43:07.044	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:51	register table success
+[Video_Surveillance15153]2021/03/15 - 12:43:07.046	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:20	use middleware logger
+[Video_Surveillance15153]2021/03/15 - 12:43:07.046	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:23	use middleware cors
+[Video_Surveillance15153]2021/03/15 - 12:43:07.046	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
+[Video_Surveillance15153]2021/03/15 - 12:43:07.057	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
+[Video_Surveillance15153]2021/03/15 - 12:43:07.059	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 12:45:28.605	[31merror[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:66	MySQL启动异常	{"err": "Error 1049: Unknown database 'video_surveillance_go'"}
+[Video_Surveillance15153]2021/03/15 - 12:46:20.399	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:51	register table success
+[Video_Surveillance15153]2021/03/15 - 12:46:20.401	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:20	use middleware logger
+[Video_Surveillance15153]2021/03/15 - 12:46:20.401	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:23	use middleware cors
+[Video_Surveillance15153]2021/03/15 - 12:46:20.401	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
+[Video_Surveillance15153]2021/03/15 - 12:46:20.422	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
+[Video_Surveillance15153]2021/03/15 - 12:46:20.423	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 12:56:54.127	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:51	register table success
+[Video_Surveillance15153]2021/03/15 - 12:56:54.134	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:20	use middleware logger
+[Video_Surveillance15153]2021/03/15 - 12:56:54.135	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:23	use middleware cors
+[Video_Surveillance15153]2021/03/15 - 12:56:54.138	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
+[Video_Surveillance15153]2021/03/15 - 12:56:54.164	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
+[Video_Surveillance15153]2021/03/15 - 12:56:54.168	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 13:06:19.873	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:51	register table success
+[Video_Surveillance15153]2021/03/15 - 13:06:19.875	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:20	use middleware logger
+[Video_Surveillance15153]2021/03/15 - 13:06:19.875	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:23	use middleware cors
+[Video_Surveillance15153]2021/03/15 - 13:06:19.875	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
+[Video_Surveillance15153]2021/03/15 - 13:06:19.890	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
+[Video_Surveillance15153]2021/03/15 - 13:06:19.892	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 13:09:53.445	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:51	register table success
+[Video_Surveillance15153]2021/03/15 - 13:09:53.448	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:20	use middleware logger
+[Video_Surveillance15153]2021/03/15 - 13:09:53.448	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:23	use middleware cors
+[Video_Surveillance15153]2021/03/15 - 13:09:53.449	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
+[Video_Surveillance15153]2021/03/15 - 13:09:53.466	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
+[Video_Surveillance15153]2021/03/15 - 13:09:53.466	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 13:14:23.028	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:51	register table success
+[Video_Surveillance15153]2021/03/15 - 13:14:23.030	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:20	use middleware logger
+[Video_Surveillance15153]2021/03/15 - 13:14:23.030	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:23	use middleware cors
+[Video_Surveillance15153]2021/03/15 - 13:14:23.030	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
+[Video_Surveillance15153]2021/03/15 - 13:14:23.055	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
+[Video_Surveillance15153]2021/03/15 - 13:14:23.056	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 13:28:23.836	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:51	register table success
+[Video_Surveillance15153]2021/03/15 - 13:28:23.838	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:20	use middleware logger
+[Video_Surveillance15153]2021/03/15 - 13:28:23.838	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:23	use middleware cors
+[Video_Surveillance15153]2021/03/15 - 13:28:23.838	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
+[Video_Surveillance15153]2021/03/15 - 13:28:23.856	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
+[Video_Surveillance15153]2021/03/15 - 13:28:23.858	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 13:29:13.594	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/gorm.go:51	register table success
+[Video_Surveillance15153]2021/03/15 - 13:29:13.596	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:20	use middleware logger
+[Video_Surveillance15153]2021/03/15 - 13:29:13.596	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:23	use middleware cors
+[Video_Surveillance15153]2021/03/15 - 13:29:13.597	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:25	register swagger handler
+[Video_Surveillance15153]2021/03/15 - 13:29:13.614	[34minfo[0m	F:/work/video_surveillance2021_go/initialize/router.go:51	router register success
+[Video_Surveillance15153]2021/03/15 - 13:29:13.615	[34minfo[0m	F:/work/video_surveillance2021_go/core/server.go:29	server run success on 	{"address": ":8888"}
+[Video_Surveillance15153]2021/03/15 - 13:29:41.371	[31merror[0m	F:/work/video_surveillance2021_go/api/v1/sys_user.go:34	登陆失败! 用户名不存在或者密码错误	{"err": "record not found"}
+[Video_Surveillance15153]2021/03/15 - 13:29:51.086	[31merror[0m	F:/work/video_surveillance2021_go/api/v1/sys_user.go:34	登陆失败! 用户名不存在或者密码错误	{"err": "record not found"}
+[Video_Surveillance15153]2021/03/15 - 13:29:57.271	[31merror[0m	F:/work/video_surveillance2021_go/api/v1/sys_user.go:34	登陆失败! 用户名不存在或者密码错误	{"err": "record not found"}
