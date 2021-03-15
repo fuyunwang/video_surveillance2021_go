@@ -3,9 +3,10 @@ package utils
 import (
 	"crypto/tls"
 	"fmt"
-	"go-micro/global"
 	"net/smtp"
 	"strings"
+
+	"video_surveillance2021/global"
 
 	"github.com/jordan-wright/email"
 )

@@ -5,6 +5,10 @@ import (
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 	"net/http"
+	_ "video_surveillance2021/docs"
+	"video_surveillance2021/global"
+	"video_surveillance2021/middleware"
+	"video_surveillance2021/router"
 )
 
 // 初始化总路由

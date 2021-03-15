@@ -1,6 +1,6 @@
 package initialize
 
-import "gin-vue-admin/model"
+import "video_surveillance2021/model"
 
 func initWorkflowModel() {
 	model.WorkflowBusinessStruct = make(map[string]func() model.GVA_Workflow)

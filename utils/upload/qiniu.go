@@ -9,6 +9,7 @@ import (
 	"go.uber.org/zap"
 	"mime/multipart"
 	"time"
+	"video_surveillance2021/global"
 )
 
 type Qiniu struct{}

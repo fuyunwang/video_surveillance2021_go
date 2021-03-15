@@ -1,5 +1,6 @@
 package initialize
 
+import "video_surveillance2021/utils"
 
 func init() {
 	_ = utils.RegisterRule("PageVerify",

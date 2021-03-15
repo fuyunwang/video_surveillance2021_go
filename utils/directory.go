@@ -3,6 +3,7 @@ package utils
 import (
 	"go.uber.org/zap"
 	"os"
+	"video_surveillance2021/global"
 )
 
 //@author: [piexlmax](https://github.com/piexlmax)

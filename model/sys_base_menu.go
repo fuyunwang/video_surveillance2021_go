@@ -1,7 +1,7 @@
 package model
 
 import (
-	"go-micro/global"
+	"video_surveillance2021/global"
 )
 
 type SysBaseMenu struct {

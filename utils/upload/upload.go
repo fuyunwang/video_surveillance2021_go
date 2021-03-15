@@ -2,6 +2,7 @@ package upload
 
 import (
 	"mime/multipart"
+	"video_surveillance2021/global"
 )
 
 //@author: [ccfish86](https://github.com/ccfish86)

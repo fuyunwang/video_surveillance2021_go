@@ -1,8 +1,6 @@
 package upload
 import (
 	"errors"
-	"go-micro/global"
-	"go-micro/utils"
 	"go.uber.org/zap"
 	"io"
 	"mime/multipart"
@@ -10,6 +8,8 @@ import (
 	"path"
 	"strings"
 	"time"
+	"video_surveillance2021/global"
+	"video_surveillance2021/utils"
 )
 
 type Local struct{}

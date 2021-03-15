@@ -2,11 +2,11 @@ package utils
 
 import (
 	zaprotatelogs "github.com/lestrrat-go/file-rotatelogs"
-	"go-micro/global"
 	"go.uber.org/zap/zapcore"
 	"os"
 	"path"
 	"time"
+	"video_surveillance2021/global"
 )
 
 //@author: [SliverHorn](https://github.com/SliverHorn)

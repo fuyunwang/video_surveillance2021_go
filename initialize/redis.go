@@ -1,8 +1,8 @@
 package initialize
 
 import (
+	"video_surveillance2021/global"
 	"github.com/go-redis/redis"
-	"go-micro/global"
 	"go.uber.org/zap"
 )
 

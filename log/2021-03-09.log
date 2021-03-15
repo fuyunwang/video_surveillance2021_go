@@ -1,0 +1,12 @@
+[GIN-VUE-ADMIN]2021/03/09 - 18:44:14.228	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/gorm.go:62	register table success
+[GIN-VUE-ADMIN]2021/03/09 - 18:44:14.231	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/router.go:20	use middleware logger
+[GIN-VUE-ADMIN]2021/03/09 - 18:44:14.231	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/router.go:23	use middleware cors
+[GIN-VUE-ADMIN]2021/03/09 - 18:44:14.231	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/router.go:25	register swagger handler
+[GIN-VUE-ADMIN]2021/03/09 - 18:44:14.245	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/router.go:51	router register success
+[GIN-VUE-ADMIN]2021/03/09 - 18:44:14.247	[34minfo[0m	F:/work/video_surveillance2021-Go/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/03/09 - 18:56:15.497	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/gorm.go:62	register table success
+[GIN-VUE-ADMIN]2021/03/09 - 18:56:15.498	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/router.go:20	use middleware logger
+[GIN-VUE-ADMIN]2021/03/09 - 18:56:15.498	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/router.go:23	use middleware cors
+[GIN-VUE-ADMIN]2021/03/09 - 18:56:15.499	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/router.go:25	register swagger handler
+[GIN-VUE-ADMIN]2021/03/09 - 18:56:15.510	[34minfo[0m	F:/work/video_surveillance2021-Go/server/initialize/router.go:51	router register success
+[GIN-VUE-ADMIN]2021/03/09 - 18:56:15.512	[34minfo[0m	F:/work/video_surveillance2021-Go/server/core/server.go:29	server run success on 	{"address": ":8888"}

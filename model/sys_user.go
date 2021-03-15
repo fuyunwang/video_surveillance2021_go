@@ -2,7 +2,7 @@ package model
 
 import (
 	"github.com/satori/go.uuid"
-	"go-micro/global"
+	"video_surveillance2021/global"
 )
 
 type SysUser struct {

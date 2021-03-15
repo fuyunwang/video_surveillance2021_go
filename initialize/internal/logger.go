@@ -3,7 +3,6 @@ package internal
 import (
 	"context"
 	"fmt"
-	"go-micro/global"
 	"go.uber.org/zap"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/utils"
@@ -11,6 +10,7 @@ import (
 	"log"
 	"os"
 	"time"
+	"video_surveillance2021/global"
 )
 
 // writer log writer interface
