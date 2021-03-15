@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/validator/v10"
 	"time"
 )
@@ -26,6 +27,10 @@ var bookableDate validator.Func = func(fl validator.FieldLevel) bool {
 func main() {
 	gin.ForceConsoleColor()
 	r := gin.Default()
+	if v, ok := binding.Validator.Engine().(*validator.Validate); ok {
+		v.RegisterValidation("bookabledate", bookableDate)
+	}
+
 	r.GET("/ping/:id", func(c *gin.Context) {
 		id := c.Param("id")
 		user := c.DefaultQuery("user","Gopher")
