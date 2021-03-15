@@ -14,15 +14,9 @@ import (
 
 type Qiniu struct{}
 
-//@author: [piexlmax](https://github.com/piexlmax)
-//@author: [ccfish86](https://github.com/ccfish86)
-//@author: [SliverHorn](https://github.com/SliverHorn)
-//@object: *Qiniu
-//@function: UploadFile
 //@description: 上传文件
 //@param: file *multipart.FileHeader
 //@return: string, string, error
-
 func (*Qiniu) UploadFile(file *multipart.FileHeader) (string, string, error) {
 	putPolicy := storage.PutPolicy{Scope: global.GVA_CONFIG.Qiniu.Bucket}
 	mac := qbox.NewMac(global.GVA_CONFIG.Qiniu.AccessKey, global.GVA_CONFIG.Qiniu.SecretKey)
@@ -47,15 +41,10 @@ func (*Qiniu) UploadFile(file *multipart.FileHeader) (string, string, error) {
 	return global.GVA_CONFIG.Qiniu.ImgPath + "/" + ret.Key, ret.Key, nil
 }
 
-//@author: [piexlmax](https://github.com/piexlmax)
-//@author: [ccfish86](https://github.com/ccfish86)
-//@author: [SliverHorn](https://github.com/SliverHorn)
-//@object: *Qiniu
-//@function: DeleteFile
+
 //@description: 删除文件
 //@param: key string
 //@return: error
-
 func (*Qiniu) DeleteFile(key string) error {
 	mac := qbox.NewMac(global.GVA_CONFIG.Qiniu.AccessKey, global.GVA_CONFIG.Qiniu.SecretKey)
 	cfg := qiniuConfig()
@@ -67,13 +56,11 @@ func (*Qiniu) DeleteFile(key string) error {
 	return nil
 }
 
-//@author: [SliverHorn](https://github.com/SliverHorn)
-//@object: *Qiniu
+
 //@function: qiniuConfig
 //@description: 根据配置文件进行返回七牛云的配置
 //@param: key string
 //@return: error
-
 func qiniuConfig() *storage.Config {
 	cfg := storage.Config{
 		UseHTTPS: global.GVA_CONFIG.Qiniu.UseHTTPS,

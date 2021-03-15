@@ -2,7 +2,7 @@
 
 # jwt configuration
 jwt:
-  signing-key: 'qmPlus'
+  signing-key: 'chuoyue'
   expires-time: 604800
   buffer-time: 86400
 
@@ -10,7 +10,7 @@ jwt:
 zap:
   level: 'info'
   format: 'console'
-  prefix: '[GIN-VUE-ADMIN]'
+  prefix: '[Video_Surveillance2021]'
   director: 'log'
   link-name: 'latest_log'
   show-line: true
@@ -26,9 +26,9 @@ redis:
 
 # email configuration
 email:
-  to: 'xxx@qq.com'
+  to: '2375872953@qq.com'
   port: 465
-  from: 'xxx@163.com'
+  from: 'beautifulsoup@163.com'
   host: 'smtp.163.com'
   is-ssl: true
   secret: 'xxx'

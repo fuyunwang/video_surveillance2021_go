@@ -11,19 +11,15 @@ import (
 	"sync"
 )
 
-//@author: [songzhibin97](https://github.com/songzhibin97)
 //@interface_name: RunTask
 //@description: Task接口
-
 type RunTask interface {
 	AddTask()
 	RunTask()
 }
 
-//@author: [songzhibin97](https://github.com/songzhibin97)
 //@struct_name: T
 //@description: Task任务
-
 type T struct {
 	sync.Mutex
 
@@ -39,21 +35,15 @@ type T struct {
 	f func(chan struct{}) error
 }
 
-//@author: [songzhibin97](https://github.com/songzhibin97)
-//@function: NewT
 //@description: T的实例化方法
 //@return: *T
-
 func NewT() *T {
 	return newT(nil)
 }
 
-//@author: [songzhibin97](https://github.com/songzhibin97)
-//@function: newT
 //@description:
 //@param: f func(chan struct{}) error
 //@return: *T
-
 func newT(f func(chan struct{}) error) *T {
 	t := &T{
 		Mutex:     sync.Mutex{},
@@ -67,11 +57,8 @@ func newT(f func(chan struct{}) error) *T {
 	return t
 }
 
-//@author: [songzhibin97](https://github.com/songzhibin97)
-//@object: *T
 //@function: AddTask
 //@description: 添加任务
-
 func (t *T) AddTask() {
 	select {
 	case t.ch <- struct{}{}:
@@ -81,11 +68,8 @@ func (t *T) AddTask() {
 	}
 }
 
-//@author: [songzhibin97](https://github.com/songzhibin97)
-//@object: *T
 //@function: RunTask
 //@description: 启动任务
-
 func (t *T) RunTask() {
 	fmt.Println("进入")
 	// 这里做的make 是用于关闭上一个执行的任务
@@ -105,13 +89,9 @@ func (t *T) RunTask() {
 
 }
 
-//@author: [songzhibin97](https://github.com/songzhibin97)
-//@object: t *T
-//@function: DefaultF
 //@description: 默认的StartFunction
 //@param: ch chan struct{}
 //@return: error
-
 func (t *T) DefaultF(ch chan struct{}) error {
 	var buildCmd *exec.Cmd
 	var cmd *exec.Cmd
@@ -156,13 +136,10 @@ func (t *T) DefaultF(ch chan struct{}) error {
 	return err
 }
 
-//@author: [songzhibin97](https://github.com/songzhibin97)
-//@object: t *T
 //@function: echo
 //@description: 封装回显
 //@param: cmd *exec.Cmd, ctx context.Context
 //@return: error
-
 func (t *T) echo(cmd *exec.Cmd, ctx context.Context) error {
 	var stdoutBuf bytes.Buffer
 	stdoutIn, _ := cmd.StdoutPipe()
